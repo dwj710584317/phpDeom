@@ -1,0 +1,27 @@
+*{margin: 0px}
+a{text-decoration: none}
+body{margin: 0 auto; }
+.title{background-color: #2e2e2e;height: 24px;width: 100%;}
+.title a{color: #ffffff;text-decoration: none}
+.l{float: left;}
+.r{float: right;}
+.core{width: 960px;margin: 0px auto}
+.banner{margin: 5px}
+.conten_smile{width: 50px;height: 50px}
+.info{ width: 540px;height: 320px; margin-right: 10px}
+.news{width: 400px;height: 320px;}
+.hot{height: 360px; width: 100%}
+/*设置span为在div右下角，元素需要float*/
+/*position: relative   设置父元素div为可使用boottom   等进行定位*/
+.conten_title{border-bottom: 1px solid #a80000;position: relative}
+.conten_title span{position: absolute;bottom: 0;right: 0;color:#a80000 }
+.conten_title a:link{color:#a80000  }
+.conten_title a:visited{color:#a80000  }
+.conten .conten_con img{margin:5px 5px 5px 0px}
+.conten p{text-indent:30px;margin-right: 5px}
+.news ul{padding-left:20px}
+.news li span{float: right}
+
+.hot ul{list-style: none}
+.hot li{float: left}
+.hot ul img{height: 100px;width:100px}
